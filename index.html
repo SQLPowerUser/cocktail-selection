@@ -1,0 +1,412 @@
+﻿<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Выбор коктейлей</title>
+	<link rel="shortcut icon" href="cocktail.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<div id="description" class="fieldset">
+		<p class="legend orange-grad">Описание</p>
+
+		<div id="description-area" class="flex-1-0">
+			<p>Название коктейля:</p>
+			<input type="text" class="description-area-input">
+
+			<p>Альтернативные названия (через запятую):</p>
+			<input type="text" class="description-area-input">
+
+			<p>Краткое описание</p>
+			<textarea class="description-area-textarea"></textarea>
+
+			<p>Инструкция по приготовлению:</p>
+			<textarea class="description-area-textarea"></textarea>
+		</div> <!-- id="description-area" -->
+
+		<div id="description-logo" class="flex-1-0">
+			<div class="description-logo-wrap flex-0-1">
+				<svg class="description-logo-tastes">
+					<defs>
+						<linearGradient id="grad2">
+							<stop offset="0%" stop-color="#FF6821"/>
+							<stop offset="100%" stop-color="#FFC039"/>
+						</linearGradient>
+					</defs>
+					<text x="0" y="23" fill="url(#grad2)">О вкусах не спорят.</text>
+				</svg>
+
+				<p class="description-logo-choose">Выбери свой напиток.</p>
+				<p class="description-logo-img"></p>
+			</div> <!-- class="description-logo-wrap" -->
+		</div> <!-- id="description-logo" -->
+	</div> <!-- id="description" -->
+
+
+	<!-- ************************************************** -->
+	<div id="ingredients-params">
+
+		<div id="ingredients" class="fieldset">
+			<p class="legend green-grad">Ингредиенты</p>
+
+			<div id="ingredients-column1">
+				<p>Название</p>
+				<select>
+					<option value="bitter-lemon" selected>Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not">Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture" selected>Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not">Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not" selected>Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not" selected>Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not" selected>Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not" selected>Нет
+				</select>
+				<select>
+					<option value="bitter-lemon">Bitter Lemon
+					<option value="lemon-tincture">Настойка "Лимонная"
+					<option value="red-bull">Ред булл
+					<option value="limoncello">Лимончелло
+					<option value="liqueur-malibu">Ликер Малибу
+					<option value="not" selected>Нет
+				</select>
+			</div> <!-- id="ingredients-column1" -->
+
+			<div id="ingredients-column2">
+				<p>Кол-во</p>
+				<input type="text" value="1">
+				<input type="text" value="50">
+				<input type="text" value="-">
+				<input type="text" value="-">
+				<input type="text" value="-">
+				<input type="text" value="-">
+				<input type="text" value="-">
+			</div> <!-- id="ingredients-column2" -->
+
+			<div id="ingredients-column3">
+				<p>Единица</p>
+				<select>
+					<option value="glass" selected>Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no">-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml" selected>мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no">-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no" selected>-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no" selected>-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no" selected>-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no" selected>-
+				</select>
+				<select>
+					<option value="glass">Стакан
+					<option value="ml">мл.
+					<option value="spoon">Ложка
+					<option value="liter">Литр
+					<option value="no" selected>-
+				</select>
+			</div> <!-- id="ingredients-column3" -->
+
+			<div id="ingredients-column4">
+				<p>Украшение</p>
+				<label> <input type="checkbox"> <span></span> </label>
+				<label> <input type="checkbox"> <span></span> </label>
+				<label> <input type="checkbox" checked> <span></span> </label>
+				<label> <input type="checkbox"> <span></span> </label>
+				<label> <input type="checkbox"> <span></span> </label>
+				<label> <input type="checkbox"> <span></span> </label>
+				<label> <input type="checkbox"> <span></span> </label>
+			</div> <!-- id="ingredients-column4" -->
+		</div> <!-- id="ingredients" -->
+
+
+		<div id="params" class="fieldset">
+			<p class="legend blue-grad">Параметры</p>
+			<div>
+				<p>Количество порций</p>
+				<select>
+					<option value="1">1 порция
+					<option value="2">2 порции
+					<option value="3" selected>3 порции
+					<option value="4">4 порции
+				</select>
+
+				<p>Время приготовления</p>
+				<select>
+					<option value="2">2 минуты
+					<option value="4" selected>4 минуты
+					<option value="6">6 минут
+					<option value="10">10 минут
+				</select>
+
+				<p>Сложность приготовления</p>
+				<select>
+					<option value="1">Легкая (1 балл)
+					<option value="3">Ниже средней (3 балла)
+					<option value="6" selected>Средняя (6 баллов)
+					<option value="8">Высокая (8 баллов)
+				</select>
+
+				<p>Метод приготовления</p>
+				<select>
+					<option value="Build" selected>В бокале
+					<option value="Blend">В миксере
+					<option value="Muddle">В ступке
+					<option value="Stir">В стире
+					<option value="Shaken">В шейкере
+				</select>
+			</div>
+		</div> <!-- id="params" -->
+
+	</div> <!-- id="ingredients-params" -->
+	<!-- ************************************************** -->
+
+
+	<div id="photo" class="fieldset s-a">
+		<p id="photo-text">Фотография:</p>
+		<p class="small-photo drink-img"></p>
+		<p>
+			<a href="javascript:1[0];">Щелкните, чтобы посмотреть в полный размер</a>
+		</p>
+		<p class="dotted flex-1-0"></p>
+		<p class="button">Загрузить&#160;фото</p>
+	</div> <!-- id="photo" -->
+
+
+	<div class="docket gold-grad">
+		тип коктейля
+		<p class="docket-triangle gold-bt"></p>
+	</div>
+
+	<div class="docket-details">
+		<p class="docket-details-short-pillar red-grad"></p>
+		По крепости:
+	</div>
+
+	<div class="docket-fieldset s-a p20">
+		<label> <input type="radio" name="alco"> <span class="green-circle">Безалкогольные</span> </label>
+		<label> <input type="radio" name="alco" checked> <span class="gold-circle">Слабоалкогольные (6-15%)</span> </label>
+		<label> <input type="radio" name="alco"> <span class="orange-circle">Полукрепкие (16-22%)</span> </label>
+		<label> <input type="radio" name="alco"> <span class="red-circle">Крепкие (более22%)</span> </label>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket-details">
+		<p class="docket-details-short-pillar green-grad"></p>
+		На основе:
+	</div>
+
+	<div class="docket-fieldset s-a radio-reverse">
+		<label> <input type="radio" name="based"> <span>Абсента</span> </label>
+		<label> <input type="radio" name="based"> <span>Водки</span> </label>
+		<label> <input type="radio" name="based"> <span>Джина</span> </label>
+		<label> <input type="radio" name="based"> <span>Виски</span> </label>
+		<label> <input type="radio" name="based"> <span>Бренди</span> </label>
+		<label> <input type="radio" name="based" checked> <span>Ликера</span> </label>
+		<label> <input type="radio" name="based"> <span>Кальвадоса</span> </label>
+		<label> <input type="radio" name="based"> <span>Текилы</span> </label>
+		<label> <input type="radio" name="based"> <span>Рома</span> </label>
+		<label> <input type="radio" name="based"> <span>Вина</span> </label>
+		<label> <input type="radio" name="based"> <span>Пива</span> </label>
+	</div>
+
+	<div class="slider s-a">
+		<p class="arrow arrow-left-img"></p>
+		<input type="range" class="flex-1-0" value="10">
+		<p class="arrow arrow-right-img"></p>
+	</div>
+
+	<div class="show-list">
+		<span>Показать списком</span>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket-details">
+		<p class="docket-details-short-pillar blue-grad"></p>
+		По типу:
+	</div>
+
+	<div class="docket-fieldset s-a radio-reverse">
+		<label> <input type="radio" name="ontype"> <span>Аперитивы</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Дижестивы</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Горячие</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Молочные</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Десертные</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Слоистые</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Дейзи</span> </label>
+		<label> <input type="radio" name="ontype" checked> <span>Джулепы</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Кардиналы</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Коблеры</span> </label>
+		<label> <input type="radio" name="ontype"> <span>Коллинзы</span> </label>
+	</div>
+
+	<div class="slider s-a">
+		<p class="arrow arrow-left-img"></p>
+		<input type="range" class="flex-1-0" value="35">
+		<p class="arrow arrow-right-img"></p>
+	</div>
+
+	<div class="show-list">
+		<span>Показать списком</span>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket red-grad">
+		теги
+		<p class="docket-triangle red-bt"></p>
+	</div>
+
+	<div class="docket-fieldset s-a">
+		<label> <input type="checkbox"> <span>Бодрящие</span> </label>
+		<label> <input type="checkbox"> <span>Горькие</span> </label>
+		<label> <input type="checkbox" checked> <span>Для компании</span> </label>
+		<label> <input type="checkbox"> <span>Кислые</span> </label>
+		<label> <input type="checkbox"> <span>Лонгдринк</span> </label>
+		<label> <input type="checkbox"> <span>Необычные по употреблению</span> </label>
+		<label> <input type="checkbox"> <span>Овощные</span> </label>
+		<label> <input type="checkbox"> <span>Огненные</span> </label>
+		<label> <input type="checkbox"> <span>Освежающие</span> </label>
+	</div>
+
+	<div class="slider s-a">
+		<p class="arrow arrow-left-img"></p>
+		<input type="range" class="flex-1-0" value="20">
+		<p class="arrow arrow-right-img"></p>
+	</div>
+
+	<div class="show-list">
+		<span>Показать списком</span>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket cyan-grad">
+		бокалы
+		<p class="docket-triangle cyan-bt"></p>
+	</div>
+
+	<div class="docket-fieldset s-a radio-reverse">
+		<label> <input type="radio" name="wineglass"> <span>Бокал для белого вина</span> </label>
+		<label> <input type="radio" name="wineglass"> <span>Бокал для красного вина</span> </label>
+		<label> <input type="radio" name="wineglass"> <span>Бокал для слоистых коктейлей</span> </label>
+		<label> <input type="radio" name="wineglass" checked> <span>Бокал сауэр</span> </label>
+		<label> <input type="radio" name="wineglass"> <span>Бокал харикейн</span> </label>
+		<label> <input type="radio" name="wineglass"> <span>Граненый стакан</span> </label>
+	</div>
+
+	<div class="slider s-a">
+		<p class="arrow arrow-left-img"></p>
+		<input type="range" class="flex-1-0" value="90">
+		<p class="arrow arrow-right-img"></p>
+	</div>
+
+	<div class="show-list">
+		<span>Показать списком</span>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket orange-grad">
+		украшения
+		<p class="docket-triangle orange-bt"></p>
+	</div>
+
+	<div class="docket-fieldset s-a">
+		<label> <input type="checkbox"> <span>Апельсин на бокале</span> </label>
+		<label> <input type="checkbox"> <span>Веточка мяты</span> </label>
+		<label> <input type="checkbox"> <span>Взбитые сливки с вишней</span> </label>
+		<label> <input type="checkbox"> <span>Виноград на шпажке</span> </label>
+		<label> <input type="checkbox"> <span>Вишенка на шпажке</span> </label>
+		<label> <input type="checkbox"checked> <span>Долька мандарина</span> </label>
+	</div>
+
+	<div class="slider s-a">
+		<p class="arrow arrow-left-img"></p>
+		<input type="range" class="flex-1-0" value="30">
+		<p class="arrow arrow-right-img"></p>
+	</div>
+
+	<div class="show-list">
+		<span>Показать списком</span>
+	</div>
+	<!-- ****************************************************************************************************************** -->
+
+
+	<div class="docket-details footer-cmd">
+		<p class="button">Добавить</p>
+		<p class="button">Начать заново</p>
+	</div>
+</body>
+</html>
